@@ -9,5 +9,5 @@ Requires:
  - Pillow (PIL)
 
 ### todo
-[] use custom header for GIMP format
-[] output to other color format files
+ - [ ] use custom header for GIMP format
+ - [ ] output to other color format files
