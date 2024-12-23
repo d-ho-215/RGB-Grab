@@ -13,7 +13,8 @@ data = []
 
 def color_text(rgb, text):
     r, g, b = rgb
-    colored_text = f"\033[38;2;{r};{g};{b}{text}\033[0m"
+    blocks = "\u2588" * 5
+    colored_text = f"\033[38;2;{r};{g};{b}m{blocks}\033[0m {text}"
     return colored_text
 
 
@@ -73,7 +74,7 @@ try:
 finally:
     root = tk.Tk()
     root.withdraw()
-    response = input("ready to save data? press Enter then choose the output directory, or Q to quit")
+    response = input("ready to save data? press Enter then choose the output directory, or Q to quit ")
     if response.upper() == "Q":
         print("ok, quitting now! buh-bye!")
         sleep(3)

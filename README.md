@@ -7,6 +7,7 @@ This was partially cribbed from another scripts I found elsewhere... will need t
 Requires:
  - pyautogui
  - Pillow (PIL)
+ - keyboard
 
 ### todo
  - [ ] use custom header for GIMP format
