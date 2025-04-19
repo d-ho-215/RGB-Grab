@@ -1,3 +1,5 @@
+#!/usr/bin/env python310
+
 import os
 import keyboard
 import pyautogui
@@ -5,6 +7,8 @@ from time import sleep
 from PIL import Image, ImageGrab
 import tkinter as tk
 from tkinter import filedialog
+
+os.system('')
 
 
 
