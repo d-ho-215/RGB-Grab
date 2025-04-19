@@ -1,2 +1,3 @@
 archived_versions/
 *.gpl
+venv/
